@@ -21,7 +21,7 @@
 					<hr />
 				</div>
 				<div class="four columns">
-					<?php do_action( 'required_credits' ); ?>
+					<?php #do_action( 'required_credits' ); ?>
 					<p><a href="<?php echo esc_url( __( 'http://lowermedia.net/', 'LowerMedia Custom Site' ) ); ?>" title="<?php esc_attr_e( 'Iowa Web Development and Design | Drupal Wordpress', 'lowermedia' ); ?>" rel="generator"><?php printf( __( 'A LowerMedia Site', 'lowermedia' ), 'LowerMedia' ); ?></a></p>
 				</div>
 				<div class="eight columns">
