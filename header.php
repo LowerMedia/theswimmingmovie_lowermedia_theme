@@ -54,7 +54,7 @@
 		?>
 
 		<!-- Row for blog navigation -->
-		<div class="row">
+		<div class="">
 			<header class="twelve columns required-header" role="banner">
 				<div class="row">
 					<hgroup class="eight columns">
