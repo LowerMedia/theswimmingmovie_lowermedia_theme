@@ -25,3 +25,22 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Open Sans', sans-serif; font-weight: 300;
 .required-header .inline-list {
 	margin-top: 14px;
 }
+
+.column, .columns {
+	padding: 0;
+}
+
+#access {
+	background-color: #4D4D4D;
+}
+
+#access .menu-main-navigation-container {
+	margin: auto;
+	width: 75%;
+}
+
+.footer div{
+	background-color: #004F84;
+	margin: auto;
+	width: 75%;
+}
