@@ -22,7 +22,7 @@ body {
 	background-color: #FAFFFE;
 }
 
-#content {height:90%;}
+#content {min-height:90%;}
 
 .row {padding:0 1%;}
 
