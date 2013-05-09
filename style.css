@@ -23,6 +23,7 @@ body {
 }
 
 #content {height:90%;}
+.row {padding:0 1%;}
 
 h1, h2, h3, h4, h5, h6 { font-family: 'Open Sans', sans-serif; font-weight: 300; }
 
@@ -42,7 +43,7 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Open Sans', sans-serif; font-weight: 300;
 
 #access .menu-main-navigation-container {
 	margin: auto;
-	width: 75%;
+	width: 940px;
 }
 
 #footer {
