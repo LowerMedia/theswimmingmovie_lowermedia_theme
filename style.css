@@ -77,8 +77,13 @@ h1, h2, h3, h4, h5, h6 {
 
 li.menu-item-23 {
 	background-image: url('https://www.facebookbrand.com/img/assets/asset.f.logo.lg.png');
-	font-size: 0;
+	text-indent:-9999px;
 	height: 35px;
 	width: 35px;
 	background-size: 35px 35px;
+}
+
+li.menu-item-23 a{
+	height: 35px;
+	width: 35px;
 }
