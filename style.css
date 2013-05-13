@@ -32,7 +32,7 @@ body.blog #main, body.single-post #main {
 
 header.required-header {
 	background-image: url("http://theswimmingmovie.com/assets/sites/18/2013/04/SwimmingMovieWeb.jpg"); 
-	background-position: 0px -320px; 
+	background-position: 0px -50%; 
 	background-size: 100% auto; 
 	height: 180px; 
 	margin-bottom: 20px;
