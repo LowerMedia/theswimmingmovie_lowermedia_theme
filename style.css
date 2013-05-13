@@ -40,7 +40,11 @@ header.required-header {
 
 hgroup.eight.colums {padding:0;}
 
-h1, h2, h3, h4, h5, h6 { font-family: 'Open Sans', sans-serif; font-weight: 300; }
+h1, h2, h3, h4, h5, h6 { 
+	font-family: 'Open Sans', sans-serif; 
+	font-weight: 300;
+	text-shadow: 1px 1px #FFFFFF; 
+}
 
 #site-title { font-weight: 600; }
 
