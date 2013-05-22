@@ -54,7 +54,7 @@ h1.entry-title {
 	text-indent:-999px;
 }
 
-.blog h1.entry-title {
+.blog h1.entry-title, .single h1.entry-title {
 	text-indent:0px;
 }
 
