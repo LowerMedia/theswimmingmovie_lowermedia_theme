@@ -31,11 +31,11 @@ body {
 }
 
 header.required-header {
-	background-image: url("http://theswimmingmovie.com/assets/sites/18/2013/04/SwimmingMovieWeb.jpg"); 
-	background-position: 0px -50%; 
-	background-size: 100% auto; 
-	height: 180px; 
-	margin-bottom: 20px;
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/b1/Competition_swimming_pool_block.jpg"); /*http://theswimmingmovie.com/assets/sites/18/2013/04/SwimmingMovieWeb.jpg*/
+	background-position: 0 -110%;
+    background-size: 100% auto;
+    height: 160px;
+    margin-bottom: 20px;
 }
 
 hgroup.eight.colums {padding:0;}
@@ -44,6 +44,14 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Open Sans', sans-serif; 
 	font-weight: 300;
 	text-shadow: 1px 1px #FFFFFF; 
+}
+
+a {
+    color: #004F84;
+}
+
+h1.entry-title {
+	text-indent:-999px;
 }
 
 #site-title { font-weight: 600; }
