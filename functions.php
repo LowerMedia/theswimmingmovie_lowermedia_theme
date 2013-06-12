@@ -150,3 +150,18 @@ function required_orbit_script_args( $defaults ) {
 	return wp_parse_args( $args, $defaults );
 }
 add_filter( 'req_orbit_script_args', 'required_orbit_script_args' );
+
+/**
+ * Display Featured Image In Admin Post View
+ *
+ * 
+ *
+ * @param  array $args default args
+ * @return array       your args
+ */
+
+function my_custom_featured_image_column_image( $image ) {
+    if ( !has_post_thumbnail() )
+        return trailingslashit( get_stylesheet_directory_uri() ) . 'images/no-featured-image';
+}
+add_filter( 'featured_image_column_default_image', 'my_custom_featured_image_column_image' );
