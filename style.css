@@ -38,6 +38,10 @@ header.required-header {
     margin-bottom: 20px;
 }
 
+#interviews-holder img, .meteor-clip {
+box-shadow:1px 4px 10px 0px black;
+}
+
 hgroup.eight.colums {padding:0;}
 
 h1, h2, h3, h4, h5, h6 { 
