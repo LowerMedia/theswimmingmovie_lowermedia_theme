@@ -38,7 +38,7 @@
           if (s.currentTop !== null) {
             s.stickyElement
               .css('position', '')
-              .css('top', '');
+              .css('top', '')
               .css('width', '')
               .css('z-index', '');
             s.stickyElement.parent().removeClass(s.className);
@@ -56,7 +56,7 @@
           if (s.currentTop != newTop) {
             s.stickyElement
               .css('position', 'fixed')
-              .css('top', newTop);
+              .css('top', newTop)
               .css('width', '100%')
               .css('z-index', '1');
 
