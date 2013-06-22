@@ -39,6 +39,8 @@
             s.stickyElement
               .css('position', '')
               .css('top', '');
+              .css('width', '')
+              .css('z-index', '');
             s.stickyElement.parent().removeClass(s.className);
             s.currentTop = null;
           }
@@ -55,6 +57,8 @@
             s.stickyElement
               .css('position', 'fixed')
               .css('top', newTop);
+              .css('width', '100%')
+              .css('z-index', '1');
 
             if (typeof s.getWidthFrom !== 'undefined') {
               s.stickyElement.css('width', $(s.getWidthFrom).width());
