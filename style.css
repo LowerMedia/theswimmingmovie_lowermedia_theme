@@ -95,6 +95,10 @@ h1.entry-title {
 	float:none;
 }
 
+#menu-social-media-navigation.inline-list>li, #menu-social-media-navigation.link-list>li {
+	border-radius:20px;
+}
+
 li.menu-item-23 {
 	background-image: url('https://www.facebookbrand.com/img/assets/asset.f.logo.lg.png');
 	text-indent:-9999px;
