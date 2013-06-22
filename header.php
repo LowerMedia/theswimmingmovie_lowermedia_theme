@@ -62,12 +62,16 @@
 						<h4 id="site-description" class="subheader"><?php bloginfo( 'description' ); ?></h4>
 					</hgroup>
 					<div class="four columns">
-						<?php wp_nav_menu( array(
-							'theme_location' => 'meta',
-							'container' => false,
-							'menu_class' => 'inline-list right',
-							'fallback_cb' => false
-						) ); ?>
+						<div id="nav-wrapper">
+        					<div id="nav-inner-wrapper">
+								<?php wp_nav_menu( array(
+									'theme_location' => 'meta',
+									'container' => false,
+									'menu_class' => 'inline-list right',
+									'fallback_cb' => false
+								) ); ?>
+							</div>
+						</div>
 						<?php
 							/**
 							 * Search form
