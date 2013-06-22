@@ -62,16 +62,14 @@
 						<h4 id="site-description" class="subheader"><?php bloginfo( 'description' ); ?></h4>
 					</hgroup>
 					<div class="four columns">
-						<div id="nav-wrapper">
-        					<div id="nav-inner-wrapper">
+
 								<?php wp_nav_menu( array(
 									'theme_location' => 'meta',
 									'container' => false,
 									'menu_class' => 'inline-list right',
 									'fallback_cb' => false
 								) ); ?>
-							</div>
-						</div>
+
 						<?php
 							/**
 							 * Search form
@@ -84,6 +82,8 @@
 						?>
 					</div>
 				</div>
+				<div id="nav-wrapper">
+        			<div id="nav-inner-wrapper">
 				<?php
 					/**
 					 * Include the default navigation
@@ -96,10 +96,11 @@
 					 * }
 					 */
 					if ( ! is_page_template( 'page-templates/off-canvas-page.php' ) ) {
+
 						get_template_part( 'nav' );
 					}
 				?>
-
+			</div></div>
 				<?php
 					/**
 					 * Include our custom-header.php
