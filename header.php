@@ -65,8 +65,8 @@
 
 								<?php wp_nav_menu( array(
 									'theme_location' => 'meta',
-									'container' => false,
-									'menu_class' => 'inline-list right',
+									'container'       => 'false',
+									'menu_class' => 'inline-list right row',
 									'fallback_cb' => false
 								) ); ?>
 
@@ -82,8 +82,9 @@
 						?>
 					</div>
 				</div>
-				<div id="nav-wrapper">
-        			<div id="nav-inner-wrapper">
+				<div class="">
+				<!-- <div id="nav-wrapper">
+        			<div id="nav-inner-wrapper"> -->
 				<?php
 					/**
 					 * Include the default navigation
@@ -100,7 +101,8 @@
 						get_template_part( 'nav' );
 					}
 				?>
-			</div></div>
+				<!-- </div></div> -->
+				</div>
 				<?php
 					/**
 					 * Include our custom-header.php

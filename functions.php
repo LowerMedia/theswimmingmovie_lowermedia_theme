@@ -172,13 +172,13 @@ add_filter( 'featured_image_column_default_image', 'my_custom_featured_image_col
 #   //This function adds custom javascript libraries and files
 */
 
-function lowermedia_add_theme_js()  
-  {  
-      // Register and enque sticky.js the script like this for a theme:  
-      // Sticky JS http://www.labs.anthonygarand.com/sticky
-      wp_register_script( 'sticky', get_stylesheet_directory_uri() . '/js/jquery.sticky.js', array( 'jquery' ), '1.0.0', true);
-      wp_register_script( 'run-sticky', get_stylesheet_directory_uri() . '/js/run-sticky.js', array( 'sticky' ), '1.0.0', true);
-      wp_enqueue_script( 'run-sticky' );
+// function lowermedia_add_theme_js()  
+//   {  
+//       // Register and enque sticky.js the script like this for a theme:  
+//       // Sticky JS http://www.labs.anthonygarand.com/sticky
+//       wp_register_script( 'sticky', get_stylesheet_directory_uri() . '/js/jquery.sticky.js', array( 'jquery' ), '1.0.0', true);
+//       wp_register_script( 'run-sticky', get_stylesheet_directory_uri() . '/js/run-sticky.js', array( 'sticky' ), '1.0.0', true);
+//       wp_enqueue_script( 'run-sticky' );
 
-  }  
-add_action( 'wp_enqueue_scripts', 'lowermedia_add_theme_js' ); 
+//   }  
+// add_action( 'wp_enqueue_scripts', 'lowermedia_add_theme_js' ); 
