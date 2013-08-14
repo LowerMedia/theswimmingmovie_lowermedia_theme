@@ -31,7 +31,7 @@ body {
 }
 
 header.required-header {
-	background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/b1/Competition_swimming_pool_block.jpg"); /*http://theswimmingmovie.com/assets/sites/18/2013/04/SwimmingMovieWeb.jpg*/
+	/*background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/b1/Competition_swimming_pool_block.jpg"); /*http://theswimmingmovie.com/assets/sites/18/2013/04/SwimmingMovieWeb.jpg*/
 	background-position: 0 -110%;
     background-size: 100% auto;
     height: 160px;
