@@ -71,7 +71,11 @@ h1.entry-title {
 	display:none;
 }
 
-#site-title { font-weight: 600; }
+#site-title { 
+	color: white;
+	text-shadow: 1px 1px black;
+	font-weight: 600; 
+}
 
 .required-header .inline-list {
 	margin-top: 14px;
