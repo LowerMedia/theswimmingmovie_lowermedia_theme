@@ -120,3 +120,7 @@ li.menu-item-23 a{
 	height: 35px;
 	width: 35px;
 }
+
+#meteor-slideshow {
+	z-index: 0;
+}
