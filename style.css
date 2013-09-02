@@ -130,3 +130,9 @@ li.menu-item-23 a{
 	float: left;
 	margin: 1%;
 }
+
+#interviews-holder img {
+	margin: 0;
+	width: 220px;
+	min-height: 129px;
+}
