@@ -124,3 +124,9 @@ li.menu-item-23 a{
 #meteor-slideshow {
 	z-index: 0;
 }
+
+.int-pic-wrap {
+	display: inline-block;
+	float: left;
+	margin: 1%;
+}
