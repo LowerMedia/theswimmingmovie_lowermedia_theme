@@ -24,7 +24,7 @@ body {
 
 #content {
 	background-color:#FAFFFE;
-	border-radius: 0 0 15px 0;
+	box-shadow: 0 0 15px 0;
 	min-height:90%;
 }
 
