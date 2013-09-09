@@ -61,7 +61,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-    color: #004F84;
+    /*color: #004F84;*/
+	color:#1E90FF;
+}
+
+a:hover {
+    /*color: #004F84;*/
+	color:white;
 }
 
 .home h1.entry-title {
