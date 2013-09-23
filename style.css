@@ -119,19 +119,34 @@ a:hover {
 	border-radius:20px;
 }*/
 
-li.menu-item-23 {
-	background-image: url('https://www.facebookbrand.com/img/assets/asset.f.logo.lg.png');
+/*SOCIAL MEDIA NAV STYLES*/
+#menu-social-media-navigation li {
 	text-indent:-9999px;
 	height: 35px;
 	width: 35px;
 	background-size: 35px 35px;
 }
-
-li.menu-item-23 a{
+#menu-social-media-navigation li a{
 	height: 35px;
 	width: 35px;
 }
-
+	/*Facebook*/
+li.menu-item-23 {
+	background-image: url('https://www.facebookbrand.com/img/assets/asset.f.logo.lg.png');
+}
+	/*Twitter*/
+li.menu-item-301 {
+	background-image: url('https://www.twitter.com/favicon.ico');
+}
+	/*KickStarter*/
+li.menu-item-302 {
+	background-image: url('http://www.kickstarter.com/favicon.ico');
+}
+	/*Vimeo*/
+li.menu-item-303 {
+	background-image: url('https://vimeo.com/favicon.ico');
+}
+/*--------------------*/
 #meteor-slideshow {
 	z-index: 0;
 }
