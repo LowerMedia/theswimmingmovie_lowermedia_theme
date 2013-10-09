@@ -57,6 +57,27 @@
 		<div class="">
 			<header class="twelve columns required-header" role="banner">
 				<div class="row">
+					<div id="nav-wrapper">
+        			<div id="nav-inner-wrapper">
+				<?php
+					/**
+					 * Include the default navigation
+					 *
+					 * You could easily do something like:
+					 * if ( is_front_page() ) {
+					 * 	get_template_part( 'nav', 'front-page' ); // nav-front-page.php
+					 * } else {
+					 * 	get_template_part( 'nav' );	// nav.php
+					 * }
+					 */
+					if ( ! is_page_template( 'page-templates/off-canvas-page.php' ) ) {
+
+						get_template_part( 'nav' );
+					}
+				?>
+			</div></div>
+
+					
 					<hgroup class="eight columns">
 						<h1 id="site-title"><span><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></span></h1>
 						<h4 id="site-description" class="subheader"><?php bloginfo( 'description' ); ?></h4>
@@ -82,25 +103,7 @@
 						?>
 					</div>
 				</div>
-				<div id="nav-wrapper">
-        			<div id="nav-inner-wrapper">
-				<?php
-					/**
-					 * Include the default navigation
-					 *
-					 * You could easily do something like:
-					 * if ( is_front_page() ) {
-					 * 	get_template_part( 'nav', 'front-page' ); // nav-front-page.php
-					 * } else {
-					 * 	get_template_part( 'nav' );	// nav.php
-					 * }
-					 */
-					if ( ! is_page_template( 'page-templates/off-canvas-page.php' ) ) {
-
-						get_template_part( 'nav' );
-					}
-				?>
-			</div></div>
+				
 				<?php
 					/**
 					 * Include our custom-header.php
