@@ -56,6 +56,8 @@
 		<!-- Row for blog navigation -->
 		<div class="">
 			<header class="twelve columns required-header" role="banner">
+				<div id="nav-background">
+				</div>
 				<div id="nav-wrapper">
 					<div id="nav-inner-wrapper">
 						<?php
