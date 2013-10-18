@@ -172,6 +172,8 @@ add_filter( 'featured_image_column_default_image', 'my_custom_featured_image_col
 #   //This function adds custom javascript libraries and files
 */
 
+/*---------------------------NOT ENABLED---------------------------*/
+
 function lowermedia_add_theme_js()  
   {  
       // Register and enque sticky.js the script like this for a theme:  
@@ -181,4 +183,5 @@ function lowermedia_add_theme_js()
       wp_enqueue_script( 'run-sticky' );
 
   }  
-add_action( 'wp_enqueue_scripts', 'lowermedia_add_theme_js' ); 
+//add_action( 'wp_enqueue_scripts', 'lowermedia_add_theme_js' ); 
+/*--------------------------- ^ ENABLED HERE ^ ---------------------------*/
