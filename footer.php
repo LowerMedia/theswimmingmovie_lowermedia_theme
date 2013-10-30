@@ -22,7 +22,9 @@
 				</div>
 				<div class="four columns">
 					<?php #do_action( 'required_credits' ); ?>
-					<p><a href="<?php echo esc_url( __( 'http://lowermedia.net/', 'LowerMedia Custom Site' ) ); ?>" title="<?php esc_attr_e( 'Iowa Web Development and Design | Drupal Wordpress', 'lowermedia' ); ?>" rel="generator"><?php printf( __( 'A LowerMedia Site', 'lowermedia' ), 'LowerMedia' ); ?></a></p>
+					<p id="web-copyright"><a href="<?php echo esc_url( __( 'http://lowermedia.net/', 'LowerMedia Custom Site' ) ); ?>" title="<?php esc_attr_e( 'Iowa Web Development and Design | Drupal Wordpress', 'lowermedia' ); ?>" rel="generator"><?php printf( __( 'A LowerMedia Site', 'lowermedia' ), 'LowerMedia' ); ?></a></p>
+					<p id="film-copyright">Copyright &copy; 2013-<?php echo date("Y") ?>, West Middle Productions, LLC, All Rights Reserved</p>
+				
 				</div>
 				<div class="eight columns">
 					<?php wp_nav_menu( array(
