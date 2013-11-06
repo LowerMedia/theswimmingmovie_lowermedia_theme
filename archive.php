@@ -14,7 +14,6 @@ get_header(); ?>
 
 	<!-- Row for main content area -->
 	<div id="content" class="row">
-
 		<div id="main" class="eight columns" role="main">
 			<div class="post-box">
 			<?php if ( have_posts() ) : ?>
@@ -48,7 +47,17 @@ get_header(); ?>
 						 * If you want to overload this in a child theme then include a file
 						 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
 						 */
-						get_template_part( 'content', get_post_format() );
+						//get_template_part( 'content', get_post_format() );
+						?>
+							<div class='archive-bit-wrap' style=''>
+								<?php echo get_the_post_thumbnail(get_the_ID(), 'medium'); ?>
+								
+								<div class='archive-exerpt-wrap' style=''>
+									<h3><?php the_title(); ?></h3>
+									<?php	the_excerpt(); 	?>
+								</div>
+							</div>
+						<?php
 					?>
 
 				<?php endwhile; ?>

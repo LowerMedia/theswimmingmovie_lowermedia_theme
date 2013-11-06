@@ -162,3 +162,29 @@ li.menu-item-303 {
 	width: 210px;
 	min-height: 129px;
 }
+
+.archive-bit-wrap {width:100%;height:200px;}
+.archive-bit-wrap img {width:30%;display:inline;}
+.archive-exerpt-wrap {float:left;display:inline;width:60%;}
+
+
+.archive-bit-wrap img {
+ float:left;  
+ clear:left;    
+}
+.category-interviews #content img:nth-of-type(2n){
+  float:right;
+  clear:right;
+}
+
+.category-interviews .page-title {display:none;}
+.category-interviews .page-title:after {content:"Interviews:";}
+
+.archive-bit-wrap img{
+	padding:5px;
+	margin:5px;
+}
+
+.blog .attachment-post-thumbnail.wp-post-image {display:none;}
+
+
