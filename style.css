@@ -187,4 +187,28 @@ li.menu-item-303 {
 
 .blog .attachment-post-thumbnail.wp-post-image {display:none;}
 
-
+body{background-color:#d2d8d8}a{color:darkgold}
+a:hover{color:#7fddf6}p{color:#607276}
+#site-title{margin-top:50px;text-shadow:5px 10px 2px #002538}
+#site-title a{font-family:"Kite One", arial, sans-serif;color:#cef2fe}
+.page-id-25 .entry-content{margin-top:-25px}
+header.required-header{background-image:url('http://theswimmingmovie.com/assets/sites/18/2013/10/swimming_1200x200.jpg');box-shadow:0 0 10px 0;z-index:1;background-position:0 center;background-size:100% auto;height:200px}
+#footer{height:140px;background-image:url('http://theswimmingmovie.com/assets/sites/18/2013/11/Header-Photo-1.jpg');background-position:0 center;background-size:100% auto;box-shadow:0 0 10px 0}
+.nav-bar a{text-shadow:5px 10px 2px #002538}
+.nav-bar > li{border:none}.nav-bar > li.active{background:none}
+.nav-bar > li a:hover{background:none}#nav-background{width:100%;height:72px;background:#000;opacity:.4;position:absolute}
+.nav-bar{margin-top:20px}nav#access,.nav-bar{background:none}
+#menu-social-media-navigation{margin-top:-57px}#content{background:none;box-shadow:none}
+#wp_email_capture_widget_class-2,#blog_subscription-2{width:50%;margin:auto;text-align:center;color:#7fddf6;padding:5px;background:#004f84;border:1px solid #d38a00;border-radius:5px;margin-bottom:20px;background-color:#000;opacity:.6;margin-top:35px}
+#wp_email_capture_widget_class-2 label,#blog_subscription-2 label{margin-bottom:0;background:#607276;border:1px solid #607276;border-bottom:none;color:#fff}
+#wp_email_capture_widget_class-2 label,#blog_subscription-2 label,#wp_email_capture_widget_class-2 input,#blog_subscription-2 input{width:90%;margin:0 5%}
+#wp_email_capture_widget_class-2 .textwidget,#blog_subscription-2 .textwidget{padding-top:5px;padding-bottom:20px}
+#wp_email_capture_widget_class-2 .widget-title,#blog_subscription-2 .widget-title{text-shadow:none;color:#fff}.home #supplementary .twelve.columns hr{display:none}
+.home #first{margin-top:-50px}
+#wp_email_capture_widget_class-2 p{display:none}
+.small-label-input{width:33.33%;float:left}.meteor-slides .meteor-clip{height:500px}
+.middle-input{padding:0 1%}.nav-bar > li:hover{background:none}.nav-bar > li > a{color:#fff}
+#web-copyright{float:left;width:40%;text-shadow:5px 10px 2px #000}#film-copyright{float:right;width:40%;text-shadow:5px 10px 2px #000;color:#fff}
+.crew-wrap{margin:20px 0}.crew-image-wrap{height:180px;width:180px;display:inline;overflow:hidden;float:left;margin-right:20px}
+.crew-image-wrap a img{width:180px;min-height:180px}
+#crew-wrap-two{float:right}#crew-wrap-two p{width:75%}#crew-wrap-two .crew-image-wrap{float:right;margin:0;margin:-170px 0 0 0}
