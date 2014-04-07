@@ -400,7 +400,8 @@ Text Domain: requiredstarter
 #blog_subscription-2 label,
 #wp_email_capture_widget_class-2 input,
 #blog_subscription-2 input,
-.wp-email-capture input {
+.wp-email-capture label,
+.wp-email-capture input, {
 	width: 90%;
 	margin: 0 5%;
 }
