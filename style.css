@@ -26,10 +26,6 @@ Text Domain: requiredstarter
 	/*a {color: #1E90FF;}
 	a:hover {color: white;}*/
 
-	a {
-		color: darkgold;
-		}
-
 	a:hover {
 			color: #7fddf6;
 		}
@@ -83,15 +79,37 @@ Text Domain: requiredstarter
 /*---------- HEADER ----------*/
 
 	.required-header {
-		background-image: url('http://theswimmingmovie.com/assets/sites/18/2013/10/swimming_1200x200.jpg');
+		/*background-image: url('http://theswimmingmovie.com/assets/sites/18/2013/10/swimming_1200x200.jpg');*/
 		background-color:#075d7f;
-		box-shadow: 0 0 10px 0;
+		/*box-shadow: 0 0 10px 0;*/
 		z-index: 1;
 		background-position: 0 center;
 		background-size: 100% auto;
-		height: 200px;
+		height: 220px;
 		margin-bottom: 20px;
 	}
+
+
+	.custom-header-wrap {
+			width:100%;
+			/*background-image: url('http://local.wordpress/media/cropped-WaterIsMySky-logo-03.png');
+			background-size: auto 178px;
+			background-position: -662px 0px;
+			background-repeat: repeat-x;*/
+			border-width:25px 0px 25px 0px;
+
+			-webkit-border-image:url('http://waterismysky.com/assets/sites/18/2014/04/border.png') 100% 0 100% 0 repeat; /* Safari 5 */
+			-o-border-image:url('http://waterismysky.com/assets/sites/18/2014/04/border.png') 100% 0 100% 0 repeat; /* Opera */
+			border-image:url('http://waterismysky.com/assets/sites/18/2014/04/border.png') 100% 0 100% 0 repeat;
+		}
+
+	.custom-header-wrap .header-image img {
+			max-width: 940px;
+			margin: auto;
+			display:block;
+		}
+
+	.custom-header-wrap hr {display:none;}
 
 	hgroup.eight.colums {
 			padding: 0;
@@ -104,8 +122,24 @@ Text Domain: requiredstarter
 
 /*---------- MENUS ----------*/
 
+
 	.nav-bar {
-			margin-top: 0;
+		margin-top: 20px;
+	}
+
+	.menu-swimming-movie-container .nav-bar li, .menu-swimming-movie-container .nav-bar>li:last-child {
+			border: none;
+			-webkit-box-shadow: 0px 0 0 rgba(0,0,0,0) inset;
+			-moz-box-shadow: 0px 0 0 rgba(0,0,0,0) inset;
+			box-shadow: 0px 0 0 rgba(0,0,0,0) inset;
+		}
+
+	.nav-bar > li.active, .nav-bar > li a:hover, .nav-bar > li:hover {
+			background: none;
+		}
+
+	.nav-bar > li > a {
+			color: #fff;
 		}
 
 	#access {
@@ -119,72 +153,63 @@ Text Domain: requiredstarter
 
 
 	/*---------- SOCIAL MEDIA NAV STYLES ----------*/
-		#menu-social-media-navigation li {
+		#menu-social-media-navigation li, #menu-swimming-movie-social-media li {
 			text-indent: -9999px;
-			height: 35px;
-			width: 35px;
-			background-size: 35px 35px;
+			height: 55px;
+			width: 55px;
+			background-size: 55px 55px;
 		}
 
-		#menu-social-media-navigation li a {
-			height: 35px;
-			width: 35px;
+		#menu-social-media-navigation li a, #menu-swimming-movie-social-media li a {
+			height: 55px;
+			width: 55px;
 		}
 
 		/*Facebook*/
-		li.menu-item-23 {
+		li.menu-item-23, .menu-item-164 {
 			background-image: url('https://www.facebookbrand.com/img/assets/asset.f.logo.lg.png');
+			background-image: url('http://waterismysky.com/assets/sites/18/2014/04/facebook_waterismysky-alt2.png');
 		}
 
 		/*Twitter*/
-		li.menu-item-301 {
+		li.menu-item-301, .menu-item-165 {
 			background-image: url('https://abs.twimg.com/a/1379631158/images/resources/twitter-bird-callout.png');
+			background-image: url('http://waterismysky.com/assets/sites/18/2014/04/twitter_waterismysky-alt2.png');
 		}
 
 		/*KickStarter*/
-		li.menu-item-302 {
+		li.menu-item-302, .menu-item-167 {
 			background-image: url('http://d297h9he240fqh.cloudfront.net/assets/compass/help/style_guide/preview-logo-k-color-973a082552377aaef59504c4a9c10169.jpg');
+			background-image: url('http://waterismysky.com/assets/sites/18/2014/04/instagram_waterismysky-alt2.png');
 		}
 
 		/*Vimeo*/
-		li.menu-item-303 {
+		.menu-item-303, .menu-item-166 {
 			background-image: url('https://vimeo.com/favicon.ico');
+			background-image: url('http://waterismysky.com/assets/sites/18/2014/04/vimeo_waterismysky-alt2.png');
 		}
 
-	.nav-bar a {
+	/*.nav-bar a {
 		text-shadow: 5px 10px 2px #002538;
-	}
+	}*/
 
-	.nav-bar > li {
-		border: none;
-	}
 
-	.nav-bar > li.active {
-		background: none;
-	}
-
-	.nav-bar > li a:hover {
-		background: none;
-	}
-
-	#nav-background {
+	/*#nav-background {
 		width: 100%;
 		height: 72px;
 		background: #000;
 		opacity: .4;
 		position: absolute;
-	}
+	}*/
 
-	.nav-bar {
-		margin-top: 20px;
-	}
+
 
 	nav#access,.nav-bar {
 		background: none;
 	}
 
 	#menu-social-media-navigation, #menu-swimming-movie-social-media{
-		margin-top: -57px;
+		margin-top: -77px;
 	}
 
 /*---------- CONTENT ----------*/
@@ -384,13 +409,7 @@ Text Domain: requiredstarter
 	padding: 0 1%;
 }
 
-.nav-bar > li:hover {
-	background: none;
-}
 
-.nav-bar > li > a {
-	color: #fff;
-}
 
 #web-copyright {
 	float: left;

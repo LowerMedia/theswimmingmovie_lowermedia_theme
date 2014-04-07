@@ -107,13 +107,17 @@
 					</div>
 				</div>
 				
-				<?php
-					/**
-					 * Include our custom-header.php
-					 *
-					 * Used with the header image stuff.
-					 */
-					get_template_part( 'custom-header' );
-				?>
+				<div id="custom-header-wrap" class="custom-header-wrap">
+					<div id="custom-header-wrap-inner" class="custom-header-wrap-inner">
+						<?php
+							/**
+							 * Include our custom-header.php
+							 *
+							 * Used with the header image stuff.
+							 */
+							get_template_part( 'custom-header' );
+						?>
+					</div>
+				</div>
 			</header>
 		</div><!-- // header.php -->
