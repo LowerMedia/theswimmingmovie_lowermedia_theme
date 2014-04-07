@@ -173,27 +173,33 @@ Text Domain: requiredstarter
 
 		/*Facebook*/
 		.menu-item-23, .menu-item-164 {
-			background-image: url('https://www.facebookbrand.com/img/assets/asset.f.logo.lg.png');
-			background-image: url('http://waterismysky.com/assets/sites/18/2014/04/facebook_waterismysky-alt2.png');
-		}
+				/*background-image: url('https://www.facebookbrand.com/img/assets/asset.f.logo.lg.png');*/
+				background-image: url('http://waterismysky.com/assets/sites/18/2014/04/facebook_waterismysky-alt2.png');
+			}
 
 		/*Twitter*/
 		.menu-item-301, .menu-item-165 {
-			background-image: url('https://abs.twimg.com/a/1379631158/images/resources/twitter-bird-callout.png');
-			background-image: url('http://waterismysky.com/assets/sites/18/2014/04/twitter_waterismysky-alt2.png');
-		}
+				/*background-image: url('https://abs.twimg.com/a/1379631158/images/resources/twitter-bird-callout.png');*/
+				background-image: url('http://waterismysky.com/assets/sites/18/2014/04/twitter_waterismysky-alt2.png');
+			}
 
-		/*KickStarter*/
-		.menu-item-302, .menu-item-167 {
-			background-image: url('http://d297h9he240fqh.cloudfront.net/assets/compass/help/style_guide/preview-logo-k-color-973a082552377aaef59504c4a9c10169.jpg');
-			background-image: url('http://waterismysky.com/assets/sites/18/2014/04/instagram_waterismysky-alt2.png');
-		}
+		/*Kickstarter*/
+		/*.menu-item-302 {
+				background-image: url('http://d297h9he240fqh.cloudfront.net/assets/compass/help/style_guide/preview-logo-k-color-973a082552377aaef59504c4a9c10169.jpg');
+				
+			}*/
+
+		/*Instagram*/
+		.menu-item-579, .menu-item-167 {
+				/*background-image: url('http://waterismysky.com/assets/sites/18/2014/03/instagram.png');*/
+				background-image: url('http://waterismysky.com/assets/sites/18/2014/04/instagram_waterismysky-alt2.png');
+			}
 
 		/*Vimeo*/
 		.menu-item-303, .menu-item-166 {
-			background-image: url('https://vimeo.com/favicon.ico');
-			background-image: url('http://waterismysky.com/assets/sites/18/2014/04/vimeo_waterismysky-alt2.png');
-		}
+				/*background-image: url('https://vimeo.com/favicon.ico');*/
+				background-image: url('http://waterismysky.com/assets/sites/18/2014/04/vimeo_waterismysky-alt2.png');
+			}
 
 	/*.nav-bar a {
 		text-shadow: 5px 10px 2px #002538;
@@ -471,3 +477,12 @@ Text Domain: requiredstarter
 	margin: 0;
 	margin: -170px 0 0;
 }
+
+.single-post .header-image img {
+	display: none;
+}
+
+.crew-wrap {
+	height: 175px;
+}
+
