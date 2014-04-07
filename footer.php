@@ -16,7 +16,7 @@
 			if ( ! is_404() )
 				get_sidebar( 'footer' );
 			?>
-			<div id="footer" class="" role="contentinfo">
+			<div id="footer" class="lowermedia-footer" role="contentinfo">
 				<div class="twelve columns">
 					<hr />
 				</div>
