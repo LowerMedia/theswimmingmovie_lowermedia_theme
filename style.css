@@ -307,6 +307,73 @@ Text Domain: requiredstarter
 		margin-top: -25px;
 	}
 
+
+
+
+	#wp_email_capture_widget_class-2,
+	#blog_subscription-2,
+	.wp-email-capture-holder {
+		width: 50%;
+		margin: auto;
+		text-align: center;
+		color: #7fddf6;
+		padding: 5px;
+		background: #004f84;
+		border: 1px solid #d38a00;
+		border-radius: 5px;
+		margin-bottom: 20px;
+		background-color: #000;
+		opacity: .6;
+		margin-top: 35px;
+	}
+
+	#wp_email_capture_widget_class-2 label,
+	#blog_subscription-2 label,
+	.wp-email-capture-holder label {
+		margin-bottom: 0;
+		background: #607276;
+		border: 1px solid #607276;
+		border-bottom: none;
+		color: #fff;
+	}
+
+	#wp_email_capture_widget_class-2 label,
+	#blog_subscription-2 label,
+	#wp_email_capture_widget_class-2 input,
+	#blog_subscription-2 input,
+	.wp-email-capture-holder label,
+	.wp-email-capture-holder input {
+		width: 90%;
+		margin: 0 5%;
+	}
+
+	#wp_email_capture_widget_class-2 .textwidget,
+	#blog_subscription-2 .textwidget,
+	.wp-email-capture-holder .textwidget {
+		padding-top: 5px;
+		padding-bottom: 20px;
+	}
+
+	#wp_email_capture_widget_class-2 .widget-title,
+	#blog_subscription-2 .widget-title,
+	.wp-email-capture .wp-email-capture-email {
+		text-shadow: none;
+		color: #fff;
+	}
+
+	.flex-video iframe,
+	.flex-video object,
+	.flex-video embed,
+	.flex-video video {
+		width:70%;
+		height:70%;
+	}
+
+	.wp-email-capture-holder {
+		width:30%;
+		float:left;
+	}
+
 /*---------- SLIDER ----------*/
 	
 	#interviews-holder img, .meteor-clip {
@@ -368,57 +435,6 @@ Text Domain: requiredstarter
 
 
 
-
-#wp_email_capture_widget_class-2,
-#blog_subscription-2,
-.wp-email-capture-holder {
-	width: 50%;
-	margin: auto;
-	text-align: center;
-	color: #7fddf6;
-	padding: 5px;
-	background: #004f84;
-	border: 1px solid #d38a00;
-	border-radius: 5px;
-	margin-bottom: 20px;
-	background-color: #000;
-	opacity: .6;
-	margin-top: 35px;
-}
-
-#wp_email_capture_widget_class-2 label,
-#blog_subscription-2 label,
-.wp-email-capture-holder label {
-	margin-bottom: 0;
-	background: #607276;
-	border: 1px solid #607276;
-	border-bottom: none;
-	color: #fff;
-}
-
-#wp_email_capture_widget_class-2 label,
-#blog_subscription-2 label,
-#wp_email_capture_widget_class-2 input,
-#blog_subscription-2 input,
-.wp-email-capture-holder label,
-.wp-email-capture-holder input, {
-	width: 90%;
-	margin: 0 5%;
-}
-
-#wp_email_capture_widget_class-2 .textwidget,
-#blog_subscription-2 .textwidget,
-.wp-email-capture-holder .textwidget {
-	padding-top: 5px;
-	padding-bottom: 20px;
-}
-
-#wp_email_capture_widget_class-2 .widget-title,
-#blog_subscription-2 .widget-title,
-.wp-email-capture .wp-email-capture-email {
-	text-shadow: none;
-	color: #fff;
-}
 
 .home #supplementary .twelve.columns hr {
 	display: none;
