@@ -17,24 +17,26 @@
 				get_sidebar( 'footer' );
 			?>
 			<div id="footer" class="lowermedia-footer" role="contentinfo">
-				<div class="twelve columns">
-					<hr />
-				</div>
-				<div class="four columns">
-					<?php #do_action( 'required_credits' ); ?>
-					<p id="web-copyright"><a href="<?php echo esc_url( __( 'http://lowermedia.net/', 'LowerMedia Custom Site' ) ); ?>" title="<?php esc_attr_e( 'Iowa Web Development and Design | Drupal Wordpress', 'lowermedia' ); ?>" rel="generator"><?php printf( __( 'A LowerMedia Site', 'lowermedia' ), 'LowerMedia' ); ?></a></p>
-					<p id="film-copyright">Copyright &copy; 2013<?php 
-					//if(date("Y") != 2013){echo "-".date("Y");}
-					echo $var=(date("Y") != 2013 ? "-".date("Y") : "");?>, West Middle Productions, LLC, All Rights Reserved</p>
-				
-				</div>
-				<div class="eight columns">
-					<?php wp_nav_menu( array(
-						'theme_location' => 'secondary',
-						'container' => false,
-						'menu_class' => 'inline-list right',
-						'fallback_cb' => false
-					) ); ?>
+				<div id="footer-inner" class="lowermedia-footer-inner">
+					<div class="twelve columns">
+						<hr />
+					</div>
+					<div class="four columns">
+						<?php #do_action( 'required_credits' ); ?>
+						<p id="web-copyright"><a href="<?php echo esc_url( __( 'http://lowermedia.net/', 'LowerMedia Custom Site' ) ); ?>" title="<?php esc_attr_e( 'Iowa Web Development and Design | Drupal Wordpress', 'lowermedia' ); ?>" rel="generator"><?php printf( __( 'A LowerMedia Site', 'lowermedia' ), 'LowerMedia' ); ?></a></p>
+						<p id="film-copyright">Copyright &copy; 2013<?php 
+						//if(date("Y") != 2013){echo "-".date("Y");}
+						echo $var=(date("Y") != 2013 ? "-".date("Y") : "");?>, West Middle Productions, LLC, All Rights Reserved</p>
+					
+					</div>
+					<div class="eight columns">
+						<?php wp_nav_menu( array(
+							'theme_location' => 'secondary',
+							'container' => false,
+							'menu_class' => 'inline-list right',
+							'fallback_cb' => false
+						) ); ?>
+					</div>
 				</div>
 			</div>
 	</div><!-- Container End -->

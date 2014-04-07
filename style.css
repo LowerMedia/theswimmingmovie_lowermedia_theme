@@ -90,7 +90,7 @@ Text Domain: requiredstarter
 	}
 
 
-	.custom-header-wrap {
+	.custom-header-wrap, .lowermedia-footer-inner {
 			width:100%;
 			/*background-image: url('http://local.wordpress/media/cropped-WaterIsMySky-logo-03.png');
 			background-size: auto 178px;
@@ -311,20 +311,31 @@ Text Domain: requiredstarter
 			background-color: #004F84;
 		}
 
-	.lowermedia-footer div {
+	.lowermedia-footer-inner {
+			height:140px;
+		}
+
+	.lowermedia-footer-inner .four.columns{
+			padding-top:30px;
+		}
+
+	.lowermedia-footer-inner hr {display:none;}
+
+	.lowermedia-footer .lowermedia-footer-inner .columns {
 			margin: auto;
 			width: 75%;
 			float: none;
 		}
 
 	.lowermedia-footer {
-		height: 140px;
-		background-image: url('http://waterismysky.com/assets/sites/18/2013/11/Header-Photo-1.jpg');
-		background-color:#075d7f;
-		background-position: 0 center;
-		background-size: 100% auto;
-		box-shadow: 0 0 10px 0;
-	}
+			height: 160px;
+			padding:10px 0;
+			/*background-image: url('http://waterismysky.com/assets/sites/18/2013/11/Header-Photo-1.jpg');*/
+			background-color:#075d7f;
+			background-position: 0 center;
+			background-size: 100% auto;
+			box-shadow: 0 0 10px 0;
+		}
 
 
 
@@ -414,13 +425,12 @@ Text Domain: requiredstarter
 #web-copyright {
 	float: left;
 	width: 40%;
-	text-shadow: 5px 10px 2px #000;
+	color: #fff;
 }
 
 #film-copyright {
 	float: right;
 	width: 40%;
-	text-shadow: 5px 10px 2px #000;
 	color: #fff;
 }
 
