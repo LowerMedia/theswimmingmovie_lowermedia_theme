@@ -54,7 +54,6 @@
 		?>
 
 		<!-- Row for blog navigation -->
-		<div class="">
 			<header class="twelve columns required-header" role="banner">
 				<div id="nav-background">
 				</div>
@@ -78,9 +77,6 @@
 					</div>
 				</div>	
 				<div class="row">
-					
-
-					
 					<hgroup class="eight columns">
 						<h1 id="site-title"><span><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></span></h1>
 						<h4 id="site-description" class="subheader"><?php bloginfo( 'description' ); ?></h4>
@@ -120,4 +116,3 @@
 					</div>
 				</div>
 			</header>
-		</div><!-- // header.php -->
