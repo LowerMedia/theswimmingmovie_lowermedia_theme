@@ -83,7 +83,7 @@ Text Domain: requiredstarter
 /*---------- HEADER ----------*/
 
 	.required-header {
-		/*background-image: url('http://theswimmingmovie.com/assets/sites/18/2013/10/swimming_1200x200.jpg');*/
+		background-image: url('http://theswimmingmovie.com/assets/sites/18/2013/10/swimming_1200x200.jpg');
 		background-color:#075d7f;
 		box-shadow: 0 0 10px 0;
 		z-index: 1;
