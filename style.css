@@ -369,7 +369,7 @@ Text Domain: requiredstarter
 
 
 
-#wp_email_capture_widget_class-2,#blog_subscription-2 {
+#wp_email_capture_widget_class-2,#blog_subscription-2, .wp-email-capture {
 	width: 50%;
 	margin: auto;
 	text-align: center;
@@ -384,7 +384,7 @@ Text Domain: requiredstarter
 	margin-top: 35px;
 }
 
-#wp_email_capture_widget_class-2 label,#blog_subscription-2 label {
+#wp_email_capture_widget_class-2 label,#blog_subscription-2 label, .wp-email-capture label {
 	margin-bottom: 0;
 	background: #607276;
 	border: 1px solid #607276;
@@ -392,7 +392,7 @@ Text Domain: requiredstarter
 	color: #fff;
 }
 
-#wp_email_capture_widget_class-2 label,#blog_subscription-2 label,#wp_email_capture_widget_class-2 input,#blog_subscription-2 input {
+#wp_email_capture_widget_class-2 label,#blog_subscription-2 label,#wp_email_capture_widget_class-2 input,#blog_subscription-2 input, .wp-email-capture input {
 	width: 90%;
 	margin: 0 5%;
 }
