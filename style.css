@@ -127,7 +127,10 @@ Text Domain: requiredstarter
 		margin-top: 20px;
 	}
 
-	.menu-swimming-movie-container .nav-bar li, .menu-swimming-movie-container .nav-bar>li:last-child {
+	.menu-main-navigation-container .nav-bar li,
+	.menu-main-navigation-container .nav-bar>li:last-child,
+	.menu-swimming-movie-container .nav-bar li, 
+	.menu-swimming-movie-container .nav-bar>li:last-child {
 			border: none;
 			-webkit-box-shadow: 0px 0 0 rgba(0,0,0,0) inset;
 			-moz-box-shadow: 0px 0 0 rgba(0,0,0,0) inset;
