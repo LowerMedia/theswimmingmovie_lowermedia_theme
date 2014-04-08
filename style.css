@@ -365,15 +365,24 @@ Text Domain: requiredstarter
 	.flex-video object,
 	.flex-video embed,
 	.flex-video video {
-		width:70%;
+		width:95%;
 		height:70%;
 	}
 
 	.wp-email-capture-holder {
-		width:30%;
-		float:left;
+		width: 30%;
+		float: right;
+		margin: 0px;
+		height: 365px;
 	}
+	
+	.wp-email-capture-holder p {
+			display:none;
+		}
 
+	.wp-email-capture-holder .text {
+			display: block;
+		}
 /*---------- SLIDER ----------*/
 	
 	#interviews-holder img, .meteor-clip {
