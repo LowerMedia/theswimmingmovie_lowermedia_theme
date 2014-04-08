@@ -318,11 +318,10 @@ Text Domain: requiredstarter
 		text-align: center;
 		color: #7fddf6;
 		padding: 5px;
-		background: #004f84;
 		border: 1px solid #d38a00;
 		border-radius: 5px;
 		margin-bottom: 20px;
-		background-color: #000;
+		background-color: #c7e4f7;
 		opacity: .6;
 		margin-top: 35px;
 	}
@@ -331,10 +330,10 @@ Text Domain: requiredstarter
 	#blog_subscription-2 label,
 	.wp-email-capture-holder label {
 		margin-bottom: 0;
-		background: #607276;
-		border: 1px solid #607276;
+		background: #e96626;
+		border: 1px solid #e96626;
 		border-bottom: none;
-		color: #fff;
+		color: #white;
 	}
 
 	#wp_email_capture_widget_class-2 label,
@@ -373,6 +372,10 @@ Text Domain: requiredstarter
 		float: right;
 		margin: 0px;
 		height: 365px;
+	}
+
+	.wp-email-capture-holder h1, .wp-email-capture-holder p {
+		color:#003049;
 	}
 
 	.wp-email-capture-holder p {
