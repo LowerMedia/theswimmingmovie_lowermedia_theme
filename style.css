@@ -358,7 +358,6 @@ Text Domain: requiredstarter
 	#blog_subscription-2 .widget-title,
 	.wp-email-capture .wp-email-capture-email {
 		text-shadow: none;
-		color: #fff;
 	}
 
 	.flex-video iframe,
@@ -375,7 +374,7 @@ Text Domain: requiredstarter
 		margin: 0px;
 		height: 365px;
 	}
-	
+
 	.wp-email-capture-holder p {
 			display:none;
 		}
