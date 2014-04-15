@@ -49,14 +49,21 @@ get_header(); ?>
 						 */
 						//get_template_part( 'content', get_post_format() );
 						?>
-							<div class='archive-bit-wrap' style=''>
-								<?php echo get_the_post_thumbnail(get_the_ID(), 'medium'); ?>
-								
+						
+							<div class='archive-bit-wrap'>
+								<div class='archive-img-wrap' style=''>
+									<a href='<?php $meta = get_post_meta( get_the_ID(),'lowermedia_press_link_link' ); echo $meta[0]; ?>' title='<?php the_title(); ?>' alt='<?php the_title(); ?>' >
+									<?php echo get_the_post_thumbnail(get_the_ID(), 'medium'); ?>
+									</a>
+								</div>
+								<a href='<?php $meta = get_post_meta( get_the_ID(),'lowermedia_press_link_link' ); echo $meta[0]; ?>' title='<?php the_title(); ?>' alt='<?php the_title(); ?>' >
 								<div class='archive-exerpt-wrap' style=''>
 									<h3><?php the_title(); ?></h3>
 									<?php	the_excerpt(); 	?>
 								</div>
+								</a>
 							</div>
+						
 						<?php
 					?>
 

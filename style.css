@@ -60,7 +60,34 @@ Text Domain: requiredstarter
 			font-family: "Kite One", arial, sans-serif;
 			color: #cef2fe;
 		}
-				
+
+	.post-type-archive-press .page-title {display:none;}
+
+	.post-type-archive-press .post-box .archive-bit-wrap:nth-child(odd) img {float:right;}
+	.post-type-archive-press .post-box .archive-bit-wrap:nth-child(odd) .archive-exerpt-wrap {float:right;}
+
+	.post-type-archive-press .post-box .archive-bit-wrap .archive-exerpt-wrap h3 {margin-left:60px;color:#075D7F;}
+
+	.post-type-archive-press .archive-bit-wrap {
+			width:100%;
+			background: #C7E5F9;
+			padding: 10px;
+			height: 215px;
+			border: 1px solid #F8DB1A;
+			margin:10px 0;
+			box-shadow:0px 0px 1px grey;
+		}
+		
+	.post-type-archive-press .archive-bit-wrap img {
+			height: 195px;
+			width: auto;
+			box-shadow:0px 0px 1px grey;
+			padding:0;
+			margin:0;
+		}		
+
+
+	.post-type-archive-press .archive-exerpt-wrap {margin-top:60px;}
 
 /*---------- HTML/BODY/wrap ----------*/
 
