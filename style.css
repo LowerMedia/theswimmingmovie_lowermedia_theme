@@ -1,9 +1,9 @@
 
 /*
-Theme Name: The Swimming Movie LowerMedia Custom Theme
-Theme URI: http://themes.required.ch/
-Author: required+ Team
-Author URI: http://required.ch/
+Theme Name: Water Is My Sky
+Theme URI: http://lowermeida.net
+Author: LowerMedia
+Author URI: http://lowermedia.net
 Description: Starter child theme for the required+ Foundation parent theme.
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -54,18 +54,14 @@ Text Domain: requiredstarter
 			background-color: #d2d8d8;
 		}
 
-
-
 	#site-title a {
 			font-family: "Kite One", arial, sans-serif;
 			color: #cef2fe;
 		}
 
 	.post-type-archive-press .page-title {display:none;}
-
 	.post-type-archive-press .post-box .archive-bit-wrap:nth-child(odd) img {float:right;}
 	.post-type-archive-press .post-box .archive-bit-wrap:nth-child(odd) .archive-exerpt-wrap {float:right;}
-
 	.post-type-archive-press .post-box .archive-bit-wrap .archive-exerpt-wrap h3 {margin-left:60px;color:#075D7F;}
 
 	.post-type-archive-press .archive-bit-wrap {
@@ -85,7 +81,6 @@ Text Domain: requiredstarter
 			padding:0;
 			margin:0;
 		}		
-
 
 	.post-type-archive-press .archive-exerpt-wrap {margin-top:60px;}
 
@@ -112,28 +107,31 @@ Text Domain: requiredstarter
 		z-index: 1;
 		background-position: 0 center;
 		background-size: 100% auto;
-		height: 220px;
+		height: 210px;
 		margin-bottom: 20px;
 	}
 
 
 	.custom-header-wrap, .lowermedia-footer-inner {
-			width:100%;
-			/*background-image: url('http://local.wordpress/media/cropped-WaterIsMySky-logo-03.png');
-			background-size: auto 178px;
-			background-position: -662px 0px;
-			background-repeat: repeat-x;*/
-			border-width:25px 0px 25px 0px;
+		width:100%;
+		/*background-image: url('http://local.wordpress/media/cropped-WaterIsMySky-logo-03.png');
+		background-size: auto 178px;
+		background-position: -662px 0px;
+		background-repeat: repeat-x;*/
+		border-width:25px 0px 25px 0px;
+		-moz-border-image:url('http://waterismysky.com/assets/sites/18/2014/04/border.png') 100% 0 100% 0 repeat; /* Firefox */
+		-webkit-border-image:url('http://waterismysky.com/assets/sites/18/2014/04/border.png') 100% 0 100% 0 repeat; /* Safari 5 */
+		-o-border-image:url('http://waterismysky.com/assets/sites/18/2014/04/border.png') 100% 0 100% 0 repeat; /* Opera */
+		border-image:url('http://waterismysky.com/assets/sites/18/2014/04/border.png') 100% 0 100% 0 repeat;
+	}
 
-			-webkit-border-image:url('http://waterismysky.com/assets/sites/18/2014/04/border.png') 100% 0 100% 0 repeat; /* Safari 5 */
-			-o-border-image:url('http://waterismysky.com/assets/sites/18/2014/04/border.png') 100% 0 100% 0 repeat; /* Opera */
-			border-image:url('http://waterismysky.com/assets/sites/18/2014/04/border.png') 100% 0 100% 0 repeat;
-		}
+
 
 	.custom-header-wrap .header-image img {
-			max-width: 940px;
+			max-width: 839px;
 			margin: auto;
-			display:block;
+			display: block;
+			width: 100%;
 		}
 
 	.custom-header-wrap hr {display:none;}
@@ -150,12 +148,18 @@ Text Domain: requiredstarter
 /*---------- MENUS ----------*/
 
 
-	.nav-bar {
+	.nav-bar,
+	.responsiveSelectFullMenu {
 		margin-top: 20px;
+		height: 40px;
+		padding: 0;
+	}
+	.responsiveSelectFullMenu {
+		height: 55px;
 	}
 
-	.menu-main-navigation-container .nav-bar li,
-	.menu-main-navigation-container .nav-bar>li:last-child,
+	.responsiveSelectFullMenu li,
+	.responsiveSelectFullMenu >li:last-child,
 	.menu-swimming-movie-container .nav-bar li, 
 	.menu-swimming-movie-container .nav-bar>li:last-child {
 			border: none;
@@ -163,11 +167,16 @@ Text Domain: requiredstarter
 			-moz-box-shadow: 0px 0 0 rgba(0,0,0,0) inset;
 			box-shadow: 0px 0 0 rgba(0,0,0,0) inset;
 		}
-
-	.nav-bar > li.active, .nav-bar > li a:hover, .nav-bar > li:hover {
-			background: none;
+	.nav-wrapper .responsiveSelectFullMenu > li.active,
+	.nav-wrapper .responsiveSelectFullMenu > li a:hover,
+	.nav-wrapper .responsiveSelectFullMenu > li:hover,
+	.nav-bar > li.active,
+	.nav-bar > li a:hover,
+	.nav-bar > li:hover {
+			background: #075D7F;
 		}
 
+	.responsiveSelectFullMenu > li > a,
 	.nav-bar > li > a {
 			color: #fff;
 		}
@@ -175,25 +184,50 @@ Text Domain: requiredstarter
 	#access {
 			background-color: #4D4D4D;
 		}
-
+		
+	.nav-wrapper .responsiveSelectFullMenu,
 	.menu-main-navigation-container, 
 	.menu-swimming-movie-container {
 			margin: auto;
 			width: 940px;
 		}
-
+		
+	.social-nav-wrapper {margin-top:-71px;}
+	.nav-wrapper .nav-inner-wrapper li {
+		border:none;
+		-webkit-box-shadow:none;
+		box-shadow:none;
+		}
+		
+	.responsiveSelectFullMenu > li {
+			float: left;
+			display: block;
+			position: relative;
+			padding: 0;
+			margin: 0;
+			border-right: none;
+			line-height: 38px;
+		}
+		
+	.responsiveSelectFullMenu > li > a:first-child {
+		position: relative;
+		padding: 0 20px;
+		display: block;
+		text-decoration: none;
+		font-size: 14px;
+	}
 
 	/*---------- SOCIAL MEDIA NAV STYLES ----------*/
-		#menu-social-media-navigation li, 
-		#menu-swimming-movie-social-media li {
+		.social-nav-wrapper li, 
+		.social-nav-wrapper li {
 			text-indent: -9999px;
 			height: 55px;
 			width: 55px;
 			background-size: 55px 55px;
 		}
 
-		#menu-social-media-navigation li a, 
-		#menu-swimming-movie-social-media li a {
+		.social-nav-wrapper li a, 
+		.social-nav-wrapper li a {
 			height: 55px;
 			width: 55px;
 		}
@@ -228,28 +262,16 @@ Text Domain: requiredstarter
 				background-image: url('http://waterismysky.com/assets/sites/18/2014/04/vimeo_waterismysky-alt2.png');
 			}
 
-	/*.nav-bar a {
-		text-shadow: 5px 10px 2px #002538;
-	}*/
 
-
-	/*#nav-background {
-		width: 100%;
-		height: 72px;
-		background: #000;
-		opacity: .4;
-		position: absolute;
-	}*/
-
-
-
-	nav#access,.nav-bar {
-		background: none;
-	}
-
-	#menu-social-media-navigation, #menu-swimming-movie-social-media{
-		margin-top: -77px;
-	}
+		nav#access,
+		.nav-bar,
+		.responsiveSelectFullMenu {
+			background: none;
+		}
+	
+		#menu-swimming-movie-social-media {
+			margin-top: -77px;
+		}
 
 /*---------- CONTENT ----------*/
 
@@ -333,7 +355,8 @@ Text Domain: requiredstarter
 	.page-id-25 .entry-content {
 		margin-top: -25px;
 	}
-
+	
+	.entry-content {margin-bottom:20px;}
 
 
 
@@ -356,7 +379,8 @@ Text Domain: requiredstarter
 	#wp_email_capture_widget_class-2 label,
 	#blog_subscription-2 label,
 	.wp-email-capture-holder label,
-	.wp-email-capture-holder .wp-email-capture-submit {
+	.wp-email-capture-holder .wp-email-capture-submit,
+	.newsletter-submit {
 		margin-bottom: 0;
 		background: #e96626;
 		border: 1px solid #e96626;
@@ -372,6 +396,11 @@ Text Domain: requiredstarter
 	.wp-email-capture-holder input {
 		width: 90%;
 		margin: 0 5%;
+	}
+
+	.newsletter-email {
+		margin-top: -14px;
+		margin-bottom: 14px;
 	}
 
 	#wp_email_capture_widget_class-2 .textwidget,
@@ -401,6 +430,10 @@ Text Domain: requiredstarter
 		margin: 0px;
 		height: 365px;
 	}
+	
+	.iframe-holder {
+			height: 365px;
+		}
 
 	.wp-email-capture-holder h2, .wp-email-capture-holder p {
 		color:#003049;
@@ -465,17 +498,6 @@ Text Domain: requiredstarter
 
 
 /*----------BELOW IS CODE THAT NEEDS TO BE REORGANIZED----------*/
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -550,11 +572,75 @@ Text Domain: requiredstarter
 	margin: -170px 0 0;
 }
 
-.single-post .header-image img {
+/*.single-post .header-image img {
 	display: none;
-}
+}*/
 
 .crew-wrap {
 	height: 175px;
 }
 
+.front-page-block {
+		width:50%;
+		float:left;
+		text-align:center;
+		margin-bottom:30px;
+	}
+
+.front-page-block .inner-p {
+		text-align:justify;
+		width:66%;
+		margin:auto;
+	}
+
+.front-tagline-holder {
+		width:265px;
+		display:block;
+		margin:10px auto;
+	}
+
+.front-block-img-holder {height:180px;overflow:hidden;margin-bottom:20px;}
+
+/*----------MOBILE STYLES----------*/
+
+@media all and  (max-width: 955px) and (min-width: 300px) {	
+	.wp-email-capture-holder {
+		width: 100%;
+		float: right;
+		margin: 20px auto;
+		height: 235px;
+		}
+		
+	.entry-content iframe {width:100%;}
+	
+	.iframe-holder {
+			height: 645px;
+			display: block;
+			margin: auto;
+		}
+		
+	.required-header {height:260px;}
+	
+	.custom-header-wrap {margin-top:20px}
+	
+	.nav-wrapper select.responsiveMenuSelect {margin-top:90px;}
+	
+	.fb_iframe_widget {
+		display: block !important;
+		width: 170px;
+		margin: auto;
+	}
+}
+
+@media all and  (max-width: 660px) and (min-width: 300px) {	
+	
+	.front-page-block {
+		width:100%;
+		}
+		
+	.front-page-block img{
+		width:100%;
+		}
+		
+	.front-block-img-holder {height:265px;
+}
